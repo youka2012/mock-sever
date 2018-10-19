@@ -1,0 +1,142 @@
+/*! auth_ma_chao */
+.font-14{
+    font-size: 14px;
+}
+.ant-menu-horizontal>.ant-menu-item:hover,.ant-menu-dark .ant-menu-item-selected{
+    background-color: #1a211d;
+}
+.ant-menu-item{
+    transition: all .2s ease;
+}
+.ant-menu-horizontal{
+    border-bottom: none;
+}
+
+.ant-menu-vertical>.ant-menu-item{
+    padding:0 16px 0 16px;
+}
+
+.header-wrap{
+    background-color: #404040;
+    height: 80px;
+}
+.tab-wrap{
+    padding-top: 35px;
+    overflow: hidden;
+}
+
+.header-menu-wrap{
+    float: right;
+    margin-right: 12px;
+}
+
+.right-dropmenu-wrap{
+    text-align: center;
+    margin-top: 32px\9;
+    margin-left: -38px\9;
+}
+@-moz-document url-prefix() {
+    .right-dropmenu-wrap{
+        margin-top: 11px;
+        margin-left: 28px;
+    }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .right-dropmenu-wrap{
+        margin-top: 11px;
+        margin-left: 28px;
+    }
+}
+
+.right-drop-wrap{
+    float: right;
+    margin-top: 10px;
+    margin-right: 22px;
+    color: #fff;
+}
+
+.ant-dropdown-link{
+    width: 200px;
+    color: #009688;
+}
+.app-footer {
+    position: absolute;
+    bottom: 0;
+    height: 28px;
+    font-size: 14px;
+    padding-top: 4px;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #393D49;
+    color: #fff;
+}.home-wrap {
+    margin: 0 15%;
+}
+p{
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 4px;
+}
+.introduce-wrap{
+    margin-top: 8px;
+}
+.contract-wrap {
+    margin-top: 8px;
+}
+
+.contact-table {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+    padding: auto;
+    background-color: #eeeeee;
+}
+
+.contact-table > thead > tr > td {
+    width: 33%;
+    background-color: #009688;
+    color: #fff;
+}
+
+.contact-table > tbody > tr > td {
+    width: 33%;
+}
+
+.article-wrap {
+    margin-top: 8px;
+}
+.more-article{
+   color: #009688;
+}
+.more-article {
+    font-size: 14px;
+}
+.more-article-modal{
+    top:20px;
+    margin:0 auto;
+}
+.article-body{
+    padding: 2px 6px;
+}
+.article-body p a{
+    font-size: 14px;
+    color: #009688;
+}html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #dddddd;
+}
+
+#app{
+    min-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 0;
+}
+#main{
+    padding-bottom: 60px;
+}
+
+

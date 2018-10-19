@@ -1,0 +1,1 @@
+webpackJsonp([5,8],{356:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var l,n=a(2),u=(l=n)&&l.__esModule?l:{"default":l};t["default"]=function(e){return u["default"].createElement("div",null,u["default"].createElement("span",{style:{fontSize:"40px"}},"Hello ! This id Page of ExamineData!"))}}});

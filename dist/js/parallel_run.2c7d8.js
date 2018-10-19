@@ -1,0 +1,1 @@
+webpackJsonp([2,8],{360:function(e,l,t){"use strict";Object.defineProperty(l,"__esModule",{value:!0});var a,n=t(2),u=(a=n)&&a.__esModule?a:{"default":a};l["default"]=function(e){return u["default"].createElement("div",null,u["default"].createElement("span",{style:{fontSize:"40px"}},"Hello ! This id Page of ParallelRun!"))}}});

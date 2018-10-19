@@ -1,0 +1,239 @@
+::1 - GET / HTTP/1.1 200 - - 5.226 ms
+::1 - GET /static/antd/antd-1.x.min.css HTTP/1.1 304 - - 6.793 ms
+::1 - GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1 304 - - 5.928 ms
+::1 - GET /css/appChunk.f303b.css?afe76cedc44313042813 HTTP/1.1 304 - - 4.711 ms
+::1 - GET /css/index.d896b.css?afe76cedc44313042813 HTTP/1.1 304 - - 2.755 ms
+::1 - GET /css/index.52f43.css?afe76cedc44313042813 HTTP/1.1 304 - - 2.717 ms
+::1 - GET /static/jquery.min.js HTTP/1.1 304 - - 2.621 ms
+::1 - GET /static/jquery.media.js HTTP/1.1 304 - - 1.629 ms
+::1 - GET /js/runtime.dfd8f.js?afe76cedc44313042813 HTTP/1.1 304 - - 1.629 ms
+::1 - GET /js/shim.10824.js?afe76cedc44313042813 HTTP/1.1 304 - - 1.376 ms
+::1 - GET /js/appChunk.2c147.js?afe76cedc44313042813 HTTP/1.1 304 - - 1.238 ms
+::1 - GET /js/vendorChunk.137ee.js?afe76cedc44313042813 HTTP/1.1 304 - - 1.209 ms
+::1 - GET /js/index.f235b.js?afe76cedc44313042813 HTTP/1.1 304 - - 0.745 ms
+::1 - GET /js/home.fb3c8.js HTTP/1.1 304 - - 0.487 ms
+::1 - GET /static/antd/antd.ttf HTTP/1.1 304 - - 0.440 ms
+::1 - GET /static/favicon.ico HTTP/1.1 200 19518 - 2.561 ms
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET / HTTP/1.1" 200 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /static/antd/antd-1.x.min.css HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /css/appChunk.f303b.css?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /css/index.d896b.css?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /css/index.52f43.css?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /static/jquery.min.js HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /static/jquery.media.js HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /js/runtime.dfd8f.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /js/shim.10824.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /js/appChunk.2c147.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /js/vendorChunk.137ee.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /js/index.f235b.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /js/home.fb3c8.js HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /static/antd/antd.ttf HTTP/1.1" 304 - "http://localhost:8008/static/antd/antd-1.x.min.css" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:08 +0000] "GET /static/favicon.ico HTTP/1.1" 200 19518 "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET / HTTP/1.1" 200 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /static/antd/antd-1.x.min.css HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /css/appChunk.f303b.css?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /css/index.d896b.css?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /css/index.52f43.css?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /static/jquery.min.js HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /static/jquery.media.js HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /js/runtime.dfd8f.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /js/shim.10824.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /js/appChunk.2c147.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /js/vendorChunk.137ee.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /js/index.f235b.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /js/home.fb3c8.js HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /static/antd/antd.ttf HTTP/1.1" 304 - "http://localhost:8008/static/antd/antd-1.x.min.css" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:17 +0000] "GET /static/favicon.ico HTTP/1.1" 200 19518 "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:42:45 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:47 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:48 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:49 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:49 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:49 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:49 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:50 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:50 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:50 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:52 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:52 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:52 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:52 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:53 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::1 - - [12/Oct/2018:02:42:53 +0000] "GET /action?userId=1212 HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+[0mGET / [32m200 [0m3.159 ms - -[0m
+[0mGET /static/antd/antd-1.x.min.css [36m304 [0m4.039 ms - -[0m
+[0mGET /static/font-awesome/css/font-awesome.min.css [36m304 [0m3.333 ms - -[0m
+[0mGET /css/appChunk.f303b.css?afe76cedc44313042813 [36m304 [0m3.217 ms - -[0m
+[0mGET /css/index.d896b.css?afe76cedc44313042813 [36m304 [0m2.336 ms - -[0m
+[0mGET /css/index.52f43.css?afe76cedc44313042813 [36m304 [0m2.289 ms - -[0m
+[0mGET /static/jquery.min.js [36m304 [0m2.270 ms - -[0m
+[0mGET /static/jquery.media.js [36m304 [0m0.409 ms - -[0m
+[0mGET /js/runtime.dfd8f.js?afe76cedc44313042813 [36m304 [0m0.564 ms - -[0m
+[0mGET /js/shim.10824.js?afe76cedc44313042813 [36m304 [0m0.612 ms - -[0m
+[0mGET /js/appChunk.2c147.js?afe76cedc44313042813 [36m304 [0m0.596 ms - -[0m
+[0mGET /js/index.f235b.js?afe76cedc44313042813 [36m304 [0m0.486 ms - -[0m
+[0mGET /js/vendorChunk.137ee.js?afe76cedc44313042813 [36m304 [0m1.346 ms - -[0m
+[0mGET /js/home.fb3c8.js [36m304 [0m0.562 ms - -[0m
+[0mGET /static/antd/antd.ttf [36m304 [0m0.427 ms - -[0m
+[0mGET /static/favicon.ico [32m200 [0m1.895 ms - 19518[0m
+[0mGET /action?userId=1212 [32m200 [0m2.141 ms - -[0m
+[0mGET /action?userId=1212 [32m200 [0m1.112 ms - -[0m
+[0mGET /action?userId=1212 [32m200 [0m1.097 ms - -[0m
+[0mGET /action?userId=1212 [32m200 [0m0.952 ms - -[0m
+[0mGET / [32m200 [0m4.012 ms - -[0m
+[0mGET /static/antd/antd-1.x.min.css [36m304 [0m4.467 ms - -[0m
+[0mGET /static/font-awesome/css/font-awesome.min.css [36m304 [0m4.216 ms - -[0m
+[0mGET /css/appChunk.f303b.css?afe76cedc44313042813 [36m304 [0m4.058 ms - -[0m
+[0mGET /css/index.d896b.css?afe76cedc44313042813 [36m304 [0m1.475 ms - -[0m
+[0mGET /css/index.52f43.css?afe76cedc44313042813 [36m304 [0m1.415 ms - -[0m
+[0mGET /static/jquery.min.js [36m304 [0m1.532 ms - -[0m
+[0mGET /static/jquery.media.js [36m304 [0m1.269 ms - -[0m
+[0mGET /js/shim.10824.js?afe76cedc44313042813 [36m304 [0m1.045 ms - -[0m
+[0mGET /js/runtime.dfd8f.js?afe76cedc44313042813 [36m304 [0m1.384 ms - -[0m
+[0mGET /js/appChunk.2c147.js?afe76cedc44313042813 [36m304 [0m0.396 ms - -[0m
+[0mGET /js/vendorChunk.137ee.js?afe76cedc44313042813 [36m304 [0m0.404 ms - -[0m
+[0mGET /js/index.f235b.js?afe76cedc44313042813 [36m304 [0m1.049 ms - -[0m
+[0mGET /js/home.fb3c8.js [36m304 [0m0.457 ms - -[0m
+[0mGET /static/antd/antd.ttf [36m304 [0m0.421 ms - -[0m
+[0mGET /static/favicon.ico [32m200 [0m1.949 ms - 19518[0m
+[0mGET /action?userId=1212 [32m200 [0m1.922 ms - -[0m
+[0mGET / [32m200 [0m1.029 ms - -[0m
+[0mGET / [32m200 [0m7.478 ms - -[0m
+[0mGET /static/antd/antd-1.x.min.css [36m304 [0m1.282 ms - -[0m
+[0mGET /static/font-awesome/css/font-awesome.min.css [36m304 [0m1.125 ms - -[0m
+[0mGET /css/appChunk.f303b.css?afe76cedc44313042813 [36m304 [0m2.009 ms - -[0m
+[0mGET /css/index.d896b.css?afe76cedc44313042813 [36m304 [0m1.403 ms - -[0m
+[0mGET /css/index.52f43.css?afe76cedc44313042813 [36m304 [0m1.713 ms - -[0m
+[0mGET /static/jquery.media.js [36m304 [0m1.911 ms - -[0m
+[0mGET /js/runtime.dfd8f.js?afe76cedc44313042813 [36m304 [0m1.512 ms - -[0m
+[0mGET /static/jquery.min.js [36m304 [0m3.256 ms - -[0m
+[0mGET /js/shim.10824.js?afe76cedc44313042813 [36m304 [0m1.867 ms - -[0m
+[0mGET /js/appChunk.2c147.js?afe76cedc44313042813 [36m304 [0m1.490 ms - -[0m
+[0mGET /js/vendorChunk.137ee.js?afe76cedc44313042813 [36m304 [0m1.050 ms - -[0m
+[0mGET /js/index.f235b.js?afe76cedc44313042813 [36m304 [0m0.572 ms - -[0m
+[0mGET /js/home.fb3c8.js [36m304 [0m0.669 ms - -[0m
+[0mGET /static/antd/antd.ttf [36m304 [0m0.575 ms - -[0m
+[0mGET / [32m200 [0m1.148 ms - -[0m
+[0mGET / [32m200 [0m1.125 ms - -[0m
+[0mGET / [32m200 [0m1.133 ms - -[0m
+[0mGET / [32m200 [0m0.952 ms - -[0m
+[0mGET / [32m200 [0m1.243 ms - -[0m
+[0mGET / [32m200 [0m0.968 ms - -[0m
+[0mGET / [32m200 [0m0.937 ms - -[0m
+[0mGET / [32m200 [0m1.250 ms - -[0m
+[0mGET / [32m200 [0m1.133 ms - -[0m
+[0mGET / [32m200 [0m0.938 ms - -[0m
+[0mGET / [32m200 [0m1.182 ms - -[0m
+[0mGET / [32m200 [0m1.125 ms - -[0m
+[0mGET / [32m200 [0m1.058 ms - -[0m
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /static/yulan.pdf HTTP/1.1" 200 415348 "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET / HTTP/1.1" 200 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /static/antd/antd-1.x.min.css HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /css/appChunk.f303b.css?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /css/index.d896b.css?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /css/index.52f43.css?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /static/jquery.min.js HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /static/jquery.media.js HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /js/runtime.dfd8f.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /js/shim.10824.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /js/appChunk.2c147.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /js/vendorChunk.137ee.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /js/index.f235b.js?afe76cedc44313042813 HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:56 +0000] "GET /js/home.fb3c8.js HTTP/1.1" 304 - "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:57 +0000] "GET /static/antd/antd.ttf HTTP/1.1" 304 - "http://localhost:8008/static/antd/antd-1.x.min.css" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::1 - - [12/Oct/2018:02:59:57 +0000] "GET /static/favicon.ico HTTP/1.1" 200 19518 "http://localhost:8008/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Oct/2018:03:00:42 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [12/Oct/2018:03:00:49 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [12/Oct/2018:03:00:51 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [12/Oct/2018:03:00:52 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [16/Oct/2018:06:54:00 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [16/Oct/2018:07:12:27 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [16/Oct/2018:07:13:35 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [16/Oct/2018:07:22:25 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [16/Oct/2018:07:23:41 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:19:54 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:20:19 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:23:03 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:27:23 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:27:54 +0000] "GET / HTTP/1.1" 500 1119 "-" "PostmanRuntime/7.2.0"
+[0mGET / [32m200 [0m2.795 ms - -[0m
+[0mGET / [32m200 [0m1.267 ms - -[0m
+[0mGET / [32m200 [0m1.826 ms - -[0m
+[0mGET / [32m200 [0m1.311 ms - -[0m
+[0mGET / [32m200 [0m1.028 ms - -[0m
+::ffff:127.0.0.1 - - [17/Oct/2018:01:30:51 +0000] "GET / HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:36:33 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:37:37 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:38:04 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:38:06 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:49:02 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:49:03 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:49:04 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:51:42 +0000] "POST /action HTTP/1.1" - - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:52:57 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:53:57 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:53:58 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:53:59 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:54:00 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:54:32 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:54:34 +0000] "POST /action HTTP/1.1" - - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:55:09 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:58:11 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:01:58:21 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:00:01 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:00:02 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:00:03 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:00:03 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:00:18 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:02:18 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:03:46 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:10:38 +0000] "GET /action HTTP/1.1" 500 1197 "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:13:28 +0000] "GET /action HTTP/1.1" 500 1200 "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:19:07 +0000] "GET /action HTTP/1.1" 500 1214 "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:19:49 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:21:03 +0000] "POST /login HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:22:15 +0000] "POST /login HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:23:33 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:35 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:37 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:37 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:37 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:37 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:38 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:38 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:38 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:38 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:38 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:38 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:38 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:38 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:24:56 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:25:09 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:25:14 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:25:14 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:25:43 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:25:43 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:25:55 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:25:55 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:25:56 +0000] "GET /action HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:25:56 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/action" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:26:32 +0000] "GET /action HTTP/1.1" 500 1214 "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:28:12 +0000] "GET /menu HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:28:22 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:34:28 +0000] "GET /menu HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:34:32 +0000] "GET /err HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:34:32 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/menu" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:36:32 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8008/err" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:38:06 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:38:34 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:38:35 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:38:45 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:39:48 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:40:00 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:40:13 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:42:05 +0000] "GET /action HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:47:42 +0000] "POST /login HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
+::ffff:127.0.0.1 - - [17/Oct/2018:02:48:18 +0000] "POST /login HTTP/1.1" 200 - "-" "PostmanRuntime/7.2.0"
