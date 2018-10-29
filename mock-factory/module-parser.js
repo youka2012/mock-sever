@@ -12,7 +12,7 @@ function loadModule(fileDir) {
     if (_data){
         _data.forEach(mdata => {
             if (mdata.url !== undefined) {
-                if (!combinedData.some(cdata => cdata.url === mdata.url)) {
+                if (!combinedData.some(cdata => cdata.url === mdata.url && cdata.method === mdata.method)) {
                     combinedData.push(mdata);
                 }
             }
@@ -23,7 +23,7 @@ function loadModule(fileDir) {
 //合并数据
 var fileStatsArray = fileExplorer(dataRootDir);
 fileStatsArray.forEach(function (item) {
-    if (path.extname(item.fileName) === '.js') {
+    if (path.extname(item.fileName) === '.js' || path.extname(item.fileName) === '.json') {
         loadModule(item.filePath);
     }
 })

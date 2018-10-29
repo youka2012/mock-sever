@@ -1,6 +1,8 @@
 var url = require('url');
 var fs = require('fs');
 var path = require('path');
+var Mock = require('mockjs');
+
 var dataMap = require('./module-parser');
 console.log('dataMap:   ', dataMap)
 
@@ -32,26 +34,40 @@ var depatch = function (req, res, next) {
         method = req.method,
         paramObj = urlObj.query,
         pathName = urlObj.pathname;
-    if (pathLine.indexOf(pathName)) {
+    if (pathLine.indexOf(pathName) > -1) {
         dataMap && dataMap.forEach((item, index) => {
-            if (item.method === method && item.url === pathName) {
+            if (item.method === method && item.url===pathName) {
+                var resultData;
+                if (item.mock) {
+                    resultData = Mock.mock(item.response);
+                } else {
+                    if (item.dataCreator) {
+                        resultData = item.dataCreator();
+                    } else {
+                        resultData = item.response;
+                    }
+                }!!item.header && !!item.header.length && item.header.forEach(h => res.setHeader(h.key, h.value));
                 if (!item.xhrStatus || item.xhrStatus < 300) {
-                    !!item.header && !!item.header.length && item.header.forEach(h => res.setHeader(h.key, h.value));
                     switch (item.dataType) {
                         case 'json':
                             res.setHeader(CommonHeader.app_josn.key, CommonHeader.app_josn.value)
-                            res.end(JSON.stringify(item.dataCreator(method, paramObj)));
+                            res.end(JSON.stringify(resultData));
                             break;
                         case 'text':
                             res.setHeader('Content-Language', 'zh-CN');
                             res.setHeader('Content-Type', 'text/html;charset=UTF-8');
-                            res.end(item.dataCreator(method, paramObj));
+                            res.end(resultData);
                             break;
-                        case 'xls':
+                        case 'attachment':
                             res.setHeader('Content-Language', 'zh-CN');
-                            res.setHeader('Content-Type', 'application/x-xls;charset=UTF-8');
-                            res.setHeader('Content-Disposition', 'attachment;filename=' + item.fileName ? item.fileName : '文件.xls');
-                            res.end(item.dataCreator(method, paramObj));
+                            res.setHeader('Content-Type', item.contentType); //'application/x-xls;charset=UTF-8'
+                            res.setHeader('Content-Disposition', 'attachment;filename=' + item.fileName ? item.fileName : 'file');
+                            res.end(fs.readFileSync(item.filePath))
+                            break;
+                        case 'stream':
+                            res.setHeader('Content-Language', 'zh-CN');
+                            res.setHeader('Content-Type', item.contentType); //'application/x-xls;charset=UTF-8'
+                            res.end(fs.readFileSync(item.filePath));
                             break;
                         case 'uploader':
                             //TODO
@@ -63,15 +79,13 @@ var depatch = function (req, res, next) {
                     }
                 } else {
                     res.setHeader(CommonHeader.app_josn.key, CommonHeader.app_josn.value)
-                    res.end(JSON.stringify({
-                        status: item.xhrStatus,
-                        msg: item.dataCreator(method, paramObj)
-                    }));
+                    res.end(JSON.stringify(resultData));
                 }
             }
         })
+    } else {
+        next();
     }
-    // next();
 };
 
 function mockMap(res, pathname, paramObj, next) {

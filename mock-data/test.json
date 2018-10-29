@@ -1,0 +1,16 @@
+[
+    {
+        "discription":"主页测",
+        "url": "/action",
+        "method": "GET",
+        "xhrStatus": 200,
+        "dataType": "json",
+        "header": [],
+        "mock":true,
+        "response": [{
+            "testlo|3-5":[{
+                "id|+1":1
+            }]
+        }]
+    }
+]

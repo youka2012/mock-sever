@@ -12,7 +12,7 @@ var proxy = require('http-proxy-middleware'); //反向代理中间件
 var mockDepatch = require('./mock-factory/depatch'); //请求分发
 var bodyParser = require("body-parser"); //请求体解析
 var morgan = require("morgan"); //日志
-// var del = require('del');//文件删除插件
+var del = require('del');//文件删除插件
 const serverConfig = require('./server-config');//服务器配置
 
 //引入JWT
@@ -67,34 +67,29 @@ Date.prototype.format = function (format) {
   });
 }
 
-/* gulp.task('cleanlog', function (cb) {
-  setInterval(function () {
-    let time = new Date().format('yyyy-MM-dd HH:mm:ss.fff');
-    // console.log(time+" : rolling...");
-  }, 2000)
-  del([
-    // 'dist/report.csv',
-    // 通配模式来匹配 `mobile` 文件夹中的所有
-    './log/*'
-    //不希望删掉这个文件，所以取反匹配模式
-    // '!dist/mobile/deploy.json'
-  ], cb);
-}); */
 
 
-let stdout = fs.createWriteStream('./log/stdout.log', options);
+
+/* let stdout = fs.createWriteStream('./log/stdout.log', options);
 let stderr = fs.createWriteStream('./log/stderr.log', options);
 // 创建logger
-let logger = new console.Console(stdout, stderr);
-
-var accessLogStream = fs.createWriteStream(path.join(__dirname,'log','api_log.log'),{
+let logger = new console.Console(stdout, stderr); */
+var logDate = new Date();
+var logFileName = ''+logDate.getDate() + logDate.getHours() + logDate.getMinutes() + logDate.getSeconds() + '.log';
+fs.writeFile('./log/' + logFileName, "", function (err) {
+  if(err){
+    return console.log(err);
+  }
+  console.log('Log file is created:  ' + logFileName);
+});
+var accessLogStream = fs.createWriteStream(path.join(__dirname, 'log', logFileName), {
   flags:'a'
 })
 //logInFile
 var connectMiddleWare;
 if (envOption.env === 'proxy') {
   connectMiddleWare = function (connect, opt) {
-    return [morgan('combined'), morgan("combined", {
+    return [morgan('short'), morgan("dev", {
           stream: accessLogStream
         }), proxy('/api', {
       target: serverConfig.proxyTargetLoaction,
@@ -103,7 +98,7 @@ if (envOption.env === 'proxy') {
   };
 }else{
   connectMiddleWare = function (connect, opt) {
-    return [morgan('combined'), morgan("combined", {
+    return [morgan('short'), morgan("dev", {
           stream: accessLogStream
         }), function cors(req, res, next) {
       mockDepatch(req, res, next);
@@ -120,6 +115,20 @@ gulp.task('webserver', function () {
   });
 });
 
+gulp.task('cleanlog', function (cb) {
+  del([
+    // 通配模式来匹配 `log` 文件夹中的所有
+    './log/*'
+    //不希望删掉这个文件，所以取反匹配模式
+    , '!' + logFileName ? logFileName : '1234d31eawe1s4rq22eaqeew1'
+  ], cb);
+});
+
+gulp.task('reloadConfig', function () {
+  // connect.reload();
+  gulp.src('./sever-config.js').pipe(connect.reload());
+});
+
 gulp.task('reloadMockData', function () {
   // connect.reload();
   gulp.src('./mock-data/**/*.*').pipe(connect.reload());
@@ -133,16 +142,17 @@ gulp.task('reloadfiles', function () {
 gulp.task('watch', function (params) {
   gulp.watch('./dist/**/*.*', ['reloadfiles']);
   gulp.watch('./mock-data/**/*.*', ['reloadMockData']);
+  gulp.watch('./sever-config.js', ['reloadConfig']);
 })
 
 //多服务器
-// gulp.task('pageserver', function() {
-//     connect.server({
-//         root: './pages',
-//         port: 8889,
-//         livereload: true
-//     });
-// });
+/* gulp.task('adminsever', function() {
+    connect.server({
+        root: './admin',
+        port: 9009,
+        livereload: true
+    });
+}); */
 
 gulp.task('reload', ['webserver'], function () {
   //刷新web调试服务器
